@@ -10,6 +10,7 @@
 @import "contactForm";
 @import "queries";
 
+//Global Styles
 body {
   background-image: url("../../assets/heroImage.jpg");
   min-height: 800px;
@@ -19,4 +20,13 @@ body {
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }

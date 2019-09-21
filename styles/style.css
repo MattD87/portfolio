@@ -278,7 +278,7 @@ header h2 {
           align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 80px;
+  padding: 60px;
 }
 
 .headerNav {
@@ -304,7 +304,7 @@ header h2 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background: #1b1a1a;
+  border-bottom: 1px solid #646363;
   padding: 10px 20px;
   width: 100%;
 }
@@ -325,12 +325,11 @@ header h2 {
           align-items: center;
 }
 
-.navBar li, .headerNav p {
+.navBar li {
   padding: 0 10px;
 }
 
-.navBar a, .headerNav p {
-  text-decoration: none;
+.navBar a {
   color: #fff;
 }
 
@@ -462,7 +461,7 @@ header p {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  background: #3a3a3a;
+  background: rgba(58, 58, 58, 0.9);
   color: #fff;
 }
 
@@ -480,6 +479,40 @@ header p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+}
+
+.secondProject, .fourthProject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+}
+
+.projectImgContainer {
+  width: 50%;
+  height: 100%;
+  background: rgba(211, 192, 160, 0.8);
+}
+
+.projectInfoContainer {
+  width: 50%;
+  padding: 40px;
+  background: rgba(25, 55, 65, 0.9);
+}
+
+.projectInfoContainer h3, .projectInfoContainer a {
+  color: #fff;
 }
 
 body {
@@ -491,4 +524,13 @@ body {
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
