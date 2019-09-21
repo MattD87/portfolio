@@ -1,0 +1,38 @@
+//====================
+// Colours
+//====================
+// main colours
+$main: #465D67;
+$secondary: #D3C0A0;
+$tertiary: #193741;
+$highlight: #FDCD01;
+$text: #000;
+
+// background colours
+$background: #F9FAFA;
+$secondaryBackground: #D8E7EA;
+$darkBackground: #333;
+
+//====================
+// Fonts
+//====================
+$header: "Oswald", sans-serif;
+$secondaryHeader: "Montserrat", sans-serif;
+$body: "Open Sans", sans-serif;
+
+//====================
+// Mixins
+//====================
+@mixin flex($direction, $justContent: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justContent;
+  align-items: center;
+}
+
+@mixin fontStyle($size, $lh, $color, $fam: $body) {
+  font-family: $fam;
+  font-size: $size;
+  line-height: $lh;
+  color: $color;
+}

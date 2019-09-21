@@ -1,0 +1,15 @@
+header {
+  @include flex (column);
+  background: url("../../assets/heroImage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+}
+
+header h2 {
+  color: #fff;
+  padding-top: 0;
+}
+

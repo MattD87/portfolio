@@ -1,0 +1,17 @@
+.headerNav {
+  @include flex(row, space-between);
+  background: $darkBackground;
+}
+
+.headerNav ul {
+  @include flex(row, space-evenly);
+}
+
+.headerNav li, .headerNav p {
+  padding: 0 10px;
+}
+
+.headerNav a, .headerNav p {
+  text-decoration: none;
+  color: $secondary;
+}
