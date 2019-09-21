@@ -1,7 +1,7 @@
 .wrapper {
-  @include flex(column, space-between);
-  width: 100%;
+  @include flex(column);
   max-width: 1200px;
   margin: 0 auto;
+  padding: 60px 80px;
   // overflow: auto;
 }

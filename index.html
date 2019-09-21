@@ -33,20 +33,19 @@
     <link rel="stylesheet" href="./styles/style.css" />
 
     <title>Matt Donaldson's Portfolio</title>
-
   </head>
 
   <body>
-    <nav class="headerNav" id="headerNav">
+    <nav class="headerNav navBar" id="headerNav">
       <ul>
-        <li><a href="#header">Home</a></li>
+        <li><a href="#header" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="logoContainer">
+      <!-- <div class="logoContainer">
         <p>Matt Donaldson</p>
-      </div>
+      </div> -->
     </nav>
     <header class="header" id="#header">
       <div class="wrapper">
@@ -58,35 +57,34 @@
     <main>
       <section class="about" id="about">
         <div class="wrapper">
-          <h2>About</h2>
-          <div class="imgContainter">
-            <img
-              src="./assets/mattDonaldsonHeadShot.jpg"
-              alt="Headshot image of Matt Donaldson, a front end developer."
-            />
-          </div>
           <div class="aboutContainer">
-            <h3>About Info</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis, totam!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, ad fugiat consequuntur dolore ea ducimus quidem rerum
-              blanditiis dolorem laudantium!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Corrupti, tenetur?
-            </p>
+            <div class="aboutPicture">
+              <img
+                src="./assets/mattDonaldsonHeadShotLight.jpg"
+                alt="Headshot image of Matt Donaldson, a front end developer."
+              />
+            </div>
+            <div class="infoContainer">
+              <!-- <h3>About Me</h3> -->
+              <h4>Hello!</h4>
+              <!-- <p>Hi, I'm Matt!</p> -->
+              <p>
+                I'm <span class="name">Matt</span>, a front-end developer with a background in management and
+                operations. My strengths include creative problem solving, team
+                management, public speaking, and breaking down problems into
+                small, manageable steps. I believe in staying evergreen, the
+                concept of always striving to learn more and develop further and
+                am always looking for new opportunities to put that idea into practice.
+              </p>
+              <p>I also have a passion for cooking and food. I'll try any dish once, and more often than not a few more times after that as well. When I'm not cooking or coding I spend my time reading, camping, and exploring this big wonderful city in all its (sometimes) glory.</p>
+            </div>
           </div>
         </div>
-        </section>
+      </section>
 
-        <section class="projects" id="projects">
-          <div class="wrapper">
-          <nav class="projectNavBar" id="projectNavBar">
+      <section class="projects" id="projects">
+        <div class="wrapper">
+          <nav class="projectNav navBar" id="projectNavBar">
             <h2>Projects</h2>
             <ul>
               <li><a href="#first">1</a></li>
@@ -97,7 +95,7 @@
           </nav>
           <div class="projectContainer firstProject" id="projectOne">
             <div class="projectImgContainter">
-              <img src="#" alt="" />
+              <img src="./assets/kanyeTrump.png" alt="" />
             </div>
             <div class="projectInfoContainer">
               <h3>Project One</h3>
@@ -115,7 +113,7 @@
           </div>
           <div class="projectContainer secondProject" id="projectTwo">
             <div class="projectImgContainter">
-              <img src="#" alt="" />
+              <img src="./assets/kanyeTrump.png" alt="" />
             </div>
             <div class="projectInfoContainer">
               <h3>Project Two</h3>
@@ -133,7 +131,7 @@
           </div>
           <div class="projectContainer thirdProject" id="projectThree">
             <div class="projectImgContainter">
-              <img src="#" alt="" />
+              <img src="./assets/kanyeTrump.png" alt="" />
             </div>
             <div class="projectInfoContainer">
               <h3>Project Three</h3>
@@ -151,7 +149,7 @@
           </div>
           <div class="projectContainer fourthProject" id="projectFour">
             <div class="projectImgContainter">
-              <img src="#" alt="" />
+              <img src="./assets/kanyeTrump.png" alt="" />
             </div>
             <div class="projectInfoContainer">
               <h3>Project Four</h3>
@@ -167,11 +165,11 @@
               </div>
             </div>
           </div>
-          </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="skills" id="skills">
-          <div class="wrapper">
+      <section class="skills" id="skills">
+        <div class="wrapper">
           <h2>Skills</h2>
           <div class="skillsContainer">
             <div class="skill">
@@ -217,11 +215,11 @@
               </div>
             </div>
           </div>
-          </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="contact" id="contact">
-          <div class="wrapper">
+      <section class="contact" id="contact">
+        <div class="wrapper">
           <form action="#" class="contactForm">
             <input type="text" name="name" id="name" />
             <input type="email" name="email" id="email" />
@@ -234,8 +232,8 @@
               placeholder="Enter text here"
             ></textarea>
           </form>
-          </div>
-        </section>
+        </div>
+      </section>
     </main>
 
     <footer class="footerContact" id="footerContact">

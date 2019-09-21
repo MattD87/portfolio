@@ -1,17 +1,31 @@
 .headerNav {
-  @include flex(row, space-between);
-  background: $darkBackground;
+  // @include flex(row, flex-start);
+  background: transparent;
+  padding: 10px 40px;
+  position: fixed;
 }
 
-.headerNav ul {
+.projectNav {
+  @include flex (column);
+  align-items: flex-start;
+  background: #1b1a1a;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.navBar ul {
   @include flex(row, space-evenly);
 }
 
-.headerNav li, .headerNav p {
+.navBar li, .headerNav p {
   padding: 0 10px;
 }
 
-.headerNav a, .headerNav p {
+.navBar a, .headerNav p {
   text-decoration: none;
-  color: $secondary;
+  color: #fff;
+}
+
+a.active {
+  color: $highlight;
 }

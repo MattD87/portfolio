@@ -10,11 +10,13 @@
 @import "contactForm";
 @import "queries";
 
-main {
+body {
   background-image: url("../../assets/heroImage.jpg");
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }

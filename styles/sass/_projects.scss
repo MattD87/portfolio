@@ -1,0 +1,18 @@
+.projects {
+  @include flex (column);
+  width: 100%;
+  background: $darkBackground;
+  color: #fff;
+}
+
+.projectContainer {
+  @include flex (row)
+}
+
+.projectImgContainer {
+
+}
+
+.projectInfoContainer {
+  
+}

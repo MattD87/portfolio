@@ -1,15 +1,20 @@
 header {
   @include flex (column);
-  background: url("../../assets/heroImage.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
   color: #fff;
+}
+
+h1 {
+  transform: rotate(-4deg);
 }
 
 header h2 {
   color: #fff;
   padding-top: 0;
+  transform: rotate(-4deg);
+}
+
+header p {
+  padding-top: 20px;
 }
 

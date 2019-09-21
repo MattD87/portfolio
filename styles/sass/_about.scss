@@ -1,12 +1,48 @@
-.about {
-  @include flex (row, space-evenly);
+.about {  
   background: #fff;
-}
-
-.imgContainer {
-
+  padding: 40px;
 }
 
 .aboutContainer {
+  @include flex(row, space-between);
+}
 
+.aboutPicture {
+  @include flex (row, space-between);
+  width: 40%;
+}
+
+.aboutPicture img {
+  flex-basis: 90%;
+  margin-right: 3%;
+  padding: 4px;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.infoContainer {
+  width: 80%;
+  text-align: justify;
+}
+
+.infoContainer h4 {
+  background: $tertiary;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  transform: rotate(-4deg);
+  margin-bottom: 14px;
+  border: none;
+}
+
+.infoContainer p {
+  padding-top: 15px;
+}
+
+.infoContainer p:first-of-type {
+  padding-top: 0;
+}
+
+.name {
+  border-bottom: 1px solid $tertiary;
 }

@@ -7,15 +7,15 @@ html {
 }
 
 h1 {
-  @include fontStyle(6rem, 6.2rem, #fff, $header);
+  @include fontStyle(6rem, 6.4rem, #fff, $header);
 }
 
 h2 {
-  @include fontStyle(3rem, 3.2rem, $main, $secondaryHeader);
+  @include fontStyle(3rem, 4rem, $main, $secondaryHeader);
 }
 
 h3 {
-  @include fontStyle(2rem, 2.2rem, $main, $header);
+  @include fontStyle(2rem, 3.8rem, $main, $header);
 }
 
 h4 {
@@ -24,4 +24,8 @@ h4 {
 
 header h2 {
   font-size: 2rem;
+}
+
+.infoContainer {
+  line-height: 26px;
 }
