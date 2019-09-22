@@ -237,7 +237,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 4rem;
-  color: #465D67;
+  color: #fff;
 }
 
 h3 {
@@ -252,6 +252,10 @@ h4 {
   font-size: 1.2rem;
   line-height: 1.8rem;
   color: #465D67;
+}
+
+p {
+  line-height: 26px;
 }
 
 header h2 {
@@ -309,6 +313,10 @@ header h2 {
   width: 100%;
 }
 
+.projectNav h2, .projectNav ul {
+  padding-bottom: 10px;
+}
+
 .navBar ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,7 +334,7 @@ header h2 {
 }
 
 .navBar li {
-  padding: 0 10px;
+  padding: 0 12px;
 }
 
 .navBar a {
@@ -358,10 +366,12 @@ header {
 h1 {
   -webkit-transform: rotate(-4deg);
           transform: rotate(-4deg);
+  text-shadow: 1px 1px black;
 }
 
 header h2 {
-  color: #fff;
+  color: #d6b781;
+  text-shadow: 1px 1px black;
   padding-top: 0;
   -webkit-transform: rotate(-4deg);
           transform: rotate(-4deg);
@@ -461,7 +471,7 @@ header p {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  background: rgba(58, 58, 58, 0.9);
+  background: rgba(39, 37, 37, 0.9);
   color: #fff;
 }
 
@@ -502,17 +512,71 @@ header p {
 .projectImgContainer {
   width: 50%;
   height: 100%;
-  background: rgba(211, 192, 160, 0.8);
+  background: rgba(214, 183, 129, 0.7);
 }
 
 .projectInfoContainer {
   width: 50%;
+  height: 100%;
   padding: 40px;
-  background: rgba(25, 55, 65, 0.9);
+  padding-top: 20px;
+  background: rgba(25, 55, 65, 0.7);
 }
 
 .projectInfoContainer h3, .projectInfoContainer a {
   color: #fff;
+}
+
+.iconContainer {
+  padding-bottom: 10px;
+}
+
+.iconContainer img {
+  width: 20px;
+  height: 20px;
+}
+
+.linkContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.linkContainer a {
+  padding: 10px;
+  background: #d6b781;
+  color: #193741;
+}
+
+.linkContainer a:first-of-type {
+  margin-right: 10px;
 }
 
 body {

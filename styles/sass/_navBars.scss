@@ -13,12 +13,16 @@
   width: 100%;
 }
 
+.projectNav h2, .projectNav ul {
+  padding-bottom: 10px;
+}
+
 .navBar ul {
   @include flex(row, space-evenly);
 }
 
 .navBar li {
-  padding: 0 10px;
+  padding: 0 12px;
 }
 
 .navBar a {

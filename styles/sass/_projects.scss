@@ -18,15 +18,46 @@
 .projectImgContainer {
 width: 50%;
 height:100%;
-background: rgba($secondary, 0.8);
+background: rgba($secondary, 0.7);
+// background: $secondary;
 }
 
 .projectInfoContainer {
   width: 50%;
+  height: 100%;
   padding: 40px;
-  background: rgba($tertiary, 0.9);
+  padding-top: 20px;
+  background: rgba($tertiary, 0.7);
 }
 
 .projectInfoContainer h3, .projectInfoContainer a {
   color: #fff;
+}
+
+.iconContainer {
+  padding-bottom: 10px;
+}
+
+.iconContainer img {
+  width: 20px;
+  height: 20px;
+}
+
+.linkContainer {
+  @include flex (row, flex-start);
+  margin-top: 20px;
+}
+
+.right {
+  @include flex (row, flex-end)
+}
+
+.linkContainer a {
+  padding: 10px;
+  background: $secondary;
+  color: $tertiary;
+}
+
+.linkContainer a:first-of-type {
+  margin-right: 10px;
 }

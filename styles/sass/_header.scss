@@ -6,10 +6,12 @@ header {
 
 h1 {
   transform: rotate(-4deg);
+  text-shadow: 1px 1px black;
 }
 
 header h2 {
-  color: #fff;
+  color: $secondary;
+  text-shadow: 1px 1px black;
   padding-top: 0;
   transform: rotate(-4deg);
 }

@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-  @include fontStyle(3rem, 4rem, $main, $secondaryHeader);
+  @include fontStyle(3rem, 4rem, #fff, $secondaryHeader);
 }
 
 h3 {
@@ -20,6 +20,10 @@ h3 {
 
 h4 {
   @include fontStyle(1.2rem, 1.8rem, $main, $secondaryHeader)
+}
+
+p {
+  line-height: 26px;
 }
 
 header h2 {
