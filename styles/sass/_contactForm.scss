@@ -1,0 +1,15 @@
+.contact {
+  background: rgba($darkBackground, 0.9);
+}
+
+.contactContainer {
+  @include flex (row, space-evenly);
+  align-items: flex-start;
+  width: 100%;
+}
+
+.contactInfo, .contactForm {
+  @include flex (column, flex-start);
+  align-items: flex-start;
+  // width: 50%;
+}
