@@ -1,0 +1,12 @@
+footer {
+  @include flex (row);
+  background: $main;
+  color: #fff;
+  padding: 10px 0;
+}
+
+footer i {
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 10px;
+}
