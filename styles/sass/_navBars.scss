@@ -1,4 +1,5 @@
 .headerNav {
+  @include flex (row, flex-start);
   background: transparent;
   padding: 10px 40px;
   // position: fixed;

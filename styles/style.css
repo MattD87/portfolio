@@ -396,6 +396,19 @@ footer a:focus {
 }
 
 .headerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: transparent;
   padding: 10px 40px;
   margin-top: 6px;
@@ -1139,7 +1152,7 @@ footer i {
 }
 
 body {
-  background-image: url("../../assets/heroImage.jpg");
+  background-image: url("../assets/heroImage.jpg");
   min-height: 800px;
   background-attachment: fixed;
   background-position: center;
