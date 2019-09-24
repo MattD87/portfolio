@@ -2,6 +2,12 @@
   background: transparent;
   padding: 10px 40px;
   position: fixed;
+  margin-top: 6px;
+}
+
+.headerNav a {
+  padding: 8px 10px;
+  border-radius: 10%;
 }
 
 .projectNav {
@@ -26,15 +32,11 @@
   @include flex(row, space-evenly);
 }
 
-.navBar li {
-  padding: 0 12px;
+.projectNav a {
+  padding: 6px 8px;
+  border-radius: 10%;
 }
 
 .navBar a {
   color: #fff;
-}
-
-a.active {
-  // color: $secondary;
-  border-bottom: 2px solid #fff;
 }

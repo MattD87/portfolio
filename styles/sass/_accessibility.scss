@@ -12,3 +12,36 @@
   left: 0;
   top: 50px;
 }
+
+.navBar a:hover, .navBar a:focus {
+  background: $background;
+  color: $secondary;
+}
+
+.linkContainer a:hover, .linkContainer a:focus, .linkContainer a:nth-of-type(2):hover, .linkContainer a:nth-of-type(2):focus, button:hover, button:focus  {
+  background: $background;
+  color: $secondary;
+  border: 2px solid $main;
+}
+
+.contactInfo a:hover, .contactInfo a:focus {
+  color: $main;
+  border-bottom: 2px solid $background;
+}
+
+.socialLinks i:hover {
+  color: $main;
+}
+
+.socialLinks a:focus {
+  border-bottom: 2px solid $main;
+}
+
+footer i:hover {
+  color: $main;
+}
+
+footer a:focus {
+  border: 1px solid $background;
+}
+
