@@ -939,6 +939,17 @@ footer i {
   margin-left: 10px;
 }
 
+body {
+  background-image: url("../assets/heroImage.jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
 /*Large Monitors */
 @media (min-width: 1480px) {
   html {
@@ -985,6 +996,10 @@ footer i {
 
 /* Responsive sizing and smaller tablets */
 @media (max-width: 600px) {
+  body {
+    background-position: top;
+    background-size: 200%;
+  }
   .wrapper {
     padding: 10px;
   }
@@ -1152,17 +1167,6 @@ footer i {
   .contactForm {
     height: 300px;
   }
-}
-
-body {
-  background-image: url("../assets/heroImage.jpg");
-  min-height: 800px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
 }
 
 img {

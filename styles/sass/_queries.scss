@@ -50,6 +50,10 @@
 
 /* Responsive sizing and smaller tablets */
 @media (max-width: 600px) {
+  body {
+    background-position: top;
+      background-size: 200%;
+  }
   .wrapper {
     padding: 10px;
   }
