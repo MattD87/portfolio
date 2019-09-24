@@ -29,6 +29,10 @@
   border-bottom: 2px solid $background;
 }
 
+input:focus, textarea:focus {
+  background: rgba(0,0,0, 0.4)
+}
+
 .socialLinks i:hover {
   color: $main;
 }
