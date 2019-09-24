@@ -1,4 +1,4 @@
-.about {  
+.about {
   background: $background;
   padding: 40px;
 }
@@ -8,7 +8,7 @@
 }
 
 .aboutPicture {
-  @include flex (row, space-between);
+  @include flex(row, space-between);
   width: 40%;
 }
 

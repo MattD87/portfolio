@@ -9,12 +9,12 @@
 }
 
 .skill {
-  @include flex (row, center);
+  @include flex(row, center);
   flex-wrap: wrap;
 }
 
 .skill li {
-  @include flex (column, center);
+  @include flex(column, center);
   width: 25%;
   padding: 10px;
 }
@@ -33,4 +33,3 @@
   color: $tertiary;
   margin-top: 10px;
 }
-

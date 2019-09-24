@@ -40,7 +40,7 @@ portfolio.animation = () => {
 
 portfolio.init = () => {
   portfolio.animation();
-}
+};
 
 $(function() {
   portfolio.init();

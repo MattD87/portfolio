@@ -1,5 +1,5 @@
 header {
-  @include flex (column);
+  @include flex(column);
   height: 100vh;
   color: #fff;
 }
@@ -17,4 +17,3 @@ header h2 {
 header p {
   padding-top: 20px;
 }
-

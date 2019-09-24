@@ -1,25 +1,26 @@
 .projects {
-  @include flex (column);
+  @include flex(column);
   width: 100%;
   background: rgba($darkBackground, 0.9);
   color: #fff;
 }
 
 .projectContainer {
-  @include flex (row);
+  @include flex(row);
   width: 100%;
 }
 
-.secondProject, .fourthProject {
-  @include flex (row-reverse);
+.secondProject,
+.fourthProject {
+  @include flex(row-reverse);
   text-align: right;
 }
 
 .projectImgContainer {
-  @include flex (row);
-width: 50%;
-height:100%;
-background: rgba($secondary, 0.7);
+  @include flex(row);
+  width: 50%;
+  height: 100%;
+  background: rgba($secondary, 0.7);
 }
 
 .projectImgContainer img {
@@ -36,7 +37,8 @@ background: rgba($secondary, 0.7);
   background: rgba($tertiary, 0.7);
 }
 
-.projectInfoContainer h3, .projectInfoContainer a {
+.projectInfoContainer h3,
+.projectInfoContainer a {
   color: #fff;
 }
 
@@ -44,18 +46,18 @@ background: rgba($secondary, 0.7);
   padding-top: 10px;
 }
 
-.iconContainer img{
+.iconContainer img {
   width: 20px;
   height: 20px;
 }
 
 .linkContainer {
-  @include flex (row, flex-start);
+  @include flex(row, flex-start);
   margin-top: 10px;
 }
 
 .right {
-  @include flex (row, flex-end)
+  @include flex(row, flex-end);
 }
 
 .linkContainer a {

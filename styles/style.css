@@ -264,28 +264,28 @@ h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
-  color: #F9FAFA;
+  color: #f9fafa;
 }
 
 :-ms-input-placeholder {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
-  color: #F9FAFA;
+  color: #f9fafa;
 }
 
 ::-ms-input-placeholder {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
-  color: #F9FAFA;
+  color: #f9fafa;
 }
 
 ::placeholder {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
-  color: #F9FAFA;
+  color: #f9fafa;
 }
 
 header h2 {
@@ -322,7 +322,7 @@ footer i {
   left: -1000px;
   top: 5px;
   z-index: 999;
-  background: #F9FAFA;
+  background: #f9fafa;
   color: #0b4f6c;
   padding: 10px;
 }
@@ -332,23 +332,31 @@ footer i {
   top: 50px;
 }
 
-.navBar a:hover, .navBar a:focus {
-  background: #F9FAFA;
+.navBar a:hover,
+.navBar a:focus {
+  background: #f9fafa;
   color: #0b4f6c;
 }
 
-.linkContainer a:hover, .linkContainer a:focus, .linkContainer a:nth-of-type(2):hover, .linkContainer a:nth-of-type(2):focus, button:hover, button:focus {
-  background: #F9FAFA;
+.linkContainer a:hover,
+.linkContainer a:focus,
+.linkContainer a:nth-of-type(2):hover,
+.linkContainer a:nth-of-type(2):focus,
+button:hover,
+button:focus {
+  background: #f9fafa;
   color: #0b4f6c;
   border: 2px solid #57a009;
 }
 
-.contactInfo a:hover, .contactInfo a:focus {
+.contactInfo a:hover,
+.contactInfo a:focus {
   color: #57a009;
-  border-bottom: 2px solid #F9FAFA;
+  border-bottom: 2px solid #f9fafa;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   background: rgba(0, 0, 0, 0.4);
 }
 
@@ -365,7 +373,7 @@ footer i:hover {
 }
 
 footer a:focus {
-  border: 1px solid #F9FAFA;
+  border: 1px solid #f9fafa;
 }
 
 .wrapper {
@@ -426,7 +434,8 @@ footer a:focus {
   color: #57a009;
 }
 
-.projectNav h2, .projectNav ul {
+.projectNav h2,
+.projectNav ul {
   padding-bottom: 10px;
 }
 
@@ -490,7 +499,7 @@ header p {
 }
 
 .about {
-  background: #F9FAFA;
+  background: #f9fafa;
   padding: 40px;
 }
 
@@ -604,7 +613,8 @@ header p {
   width: 100%;
 }
 
-.secondProject, .fourthProject {
+.secondProject,
+.fourthProject {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -654,7 +664,8 @@ header p {
   background: rgba(35, 9, 3, 0.7);
 }
 
-.projectInfoContainer h3, .projectInfoContainer a {
+.projectInfoContainer h3,
+.projectInfoContainer a {
   color: #fff;
 }
 
@@ -703,7 +714,7 @@ header p {
 .linkContainer a {
   padding: 10px;
   background: #0b4f6c;
-  color: #F9FAFA;
+  color: #f9fafa;
   border: 2px solid transparent;
 }
 
@@ -716,7 +727,7 @@ header p {
 }
 
 .skills {
-  background: #F9FAFA;
+  background: #f9fafa;
   padding-bottom: 40px;
 }
 
@@ -804,11 +815,13 @@ header p {
   opacity: 1;
 }
 
-fieldset, input {
+fieldset,
+input {
   border: none;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 10px;
   margin-bottom: 8px;
   border-bottom: 2px solid #57a009;
@@ -827,7 +840,8 @@ fieldset {
   margin-top: 20px;
 }
 
-input[type=text], input[type=email] {
+input[type="text"],
+input[type="email"] {
   width: 49.5%;
 }
 
@@ -837,7 +851,7 @@ button {
   padding: 10px 12px;
   margin: 6px 0 20px 0;
   background: #57a009;
-  color: #F9FAFA;
+  color: #f9fafa;
 }
 
 .contactInfo {

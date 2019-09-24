@@ -11,7 +11,7 @@
 }
 
 .projectNav {
-  @include flex (column);
+  @include flex(column);
   align-items: flex-start;
   border-bottom: 1px solid $highlight;
   padding: 10px 20px;
@@ -19,11 +19,12 @@
   margin-bottom: 20px;
 }
 
-.projectNav li a{
+.projectNav li a {
   color: $main;
 }
 
-.projectNav h2, .projectNav ul {
+.projectNav h2,
+.projectNav ul {
   padding-bottom: 10px;
 }
 
