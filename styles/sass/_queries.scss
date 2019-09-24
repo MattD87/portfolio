@@ -1,5 +1,144 @@
-@mixin mq-tablet {
-  @media (max-width: 768px) {
-    @content;
+/*Large Monitors */
+@media (min-width: 1480px) {
+  html {
+    font-size: 125%;
+  }
+
+  .wrapper {
+    max-width: 1600px;
+  }
+}
+
+/* Kindle */
+@media (max-width: 800px) {
+  html {
+    font-size: 100%;
+  }
+
+  .projectImgContainer img {
+    width: 70%;
+    height: 70%;
+  }
+
+  h3 {
+    line-height: 2.4rem;
+  }
+
+  .projectInfoContainer h3 {
+    padding-bottom: 20px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .aboutPicture img {
+    flex-basis: 100%;
+  }
+}
+
+/* Responsive sizing and smaller tablets */
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 10px;
+  }
+
+  header {
+    height: 60vh;
+  }
+
+  h1 {
+    font-size: 5.2rem;
+    line-height: 5.4rem;
+  }
+
+  p {
+    line-height: 1.4rem;
+  }
+
+  .about {
+    padding: 10px;
+  }
+
+  .aboutContainer {
+    @include flex(column);
+  }
+
+  .infoContainer {
+    width: 95%;
+  }
+
+  .projectContainer {
+    @include flex(column);
+  }
+
+  .projectInfoContainer {
+    width: 90%;
+  }
+
+  .projectImgContainer {
+    width: 90%;
+  }
+
+  .projectImgContainer img {
+    height: 90%;
+    width: 90%;
+  }
+
+  .secondProject,
+  .fourthProject {
+    text-align: left;
+  }
+
+  .right {
+    @include flex(row, flex-start);
+  }
+
+  .skills h2 {
+    padding-bottom: 20px;
+  }
+
+  .skill i {
+    font-size: 3.2rem;
+  }
+}
+
+/*Landscape phones */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  .skill i {
+    font-size: 2.8rem;
+  }
+
+  .skill p {
+    font-size: 0.8rem;
+  }
+
+  .contactForm {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  fieldset {
+    width: 95%;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 49%;
+  }
+
+  textarea {
+    width: 95%;
   }
 }

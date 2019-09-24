@@ -927,6 +927,162 @@ footer i {
   margin-left: 10px;
 }
 
+/*Large Monitors */
+@media (min-width: 1480px) {
+  html {
+    font-size: 125%;
+  }
+  .wrapper {
+    max-width: 1600px;
+  }
+}
+
+/* Kindle */
+@media (max-width: 800px) {
+  html {
+    font-size: 100%;
+  }
+  .projectImgContainer img {
+    width: 70%;
+    height: 70%;
+  }
+  h3 {
+    line-height: 2.4rem;
+  }
+  .projectInfoContainer h3 {
+    padding-bottom: 20px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 20px;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  .aboutPicture img {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+/* Responsive sizing and smaller tablets */
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 10px;
+  }
+  header {
+    height: 60vh;
+  }
+  h1 {
+    font-size: 5.2rem;
+    line-height: 5.4rem;
+  }
+  p {
+    line-height: 1.4rem;
+  }
+  .about {
+    padding: 10px;
+  }
+  .aboutContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .infoContainer {
+    width: 95%;
+  }
+  .projectContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projectInfoContainer {
+    width: 90%;
+  }
+  .projectImgContainer {
+    width: 90%;
+  }
+  .projectImgContainer img {
+    height: 90%;
+    width: 90%;
+  }
+  .secondProject,
+  .fourthProject {
+    text-align: left;
+  }
+  .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .skills h2 {
+    padding-bottom: 20px;
+  }
+  .skill i {
+    font-size: 3.2rem;
+  }
+}
+
+/*Landscape phones */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+  .skill i {
+    font-size: 2.8rem;
+  }
+  .skill p {
+    font-size: 0.8rem;
+  }
+  .contactForm {
+    margin: 0 auto;
+    width: 90%;
+  }
+  fieldset {
+    width: 95%;
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 49%;
+  }
+  textarea {
+    width: 95%;
+  }
+}
+
 body {
   background-image: url("../../assets/heroImage.jpg");
   min-height: 800px;

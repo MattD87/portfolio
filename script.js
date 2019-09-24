@@ -4,12 +4,22 @@ const portfolio = {};
 portfolio.typed = new Typed("#typed", {
   strings: [
     "",
-    "^2000Javacsirpt ^300",
-    "Javascript",
-    "Javascript Enthusiast.^2000",
+    // "^2000Javacsirpt ^300",
+    // "Javascript",
     "Lover of CSS.",
     "Lover of CSS. Yeah, I said it.^2000",
-    "Your next developer.^5000"
+    "Javascript Enthusiast.^2000",
+    "JAMstack.",
+    "JAMstack. mmmm jam.^300",
+    "JAMstack aficionado.^2000",
+    "Your next developer.^6000"
+
+    // "^2000Javacsirpt ^300",
+    // "Javascript",
+    // "Javascript Enthusiast.^2000",
+    // "Lover of CSS.",
+    // "Lover of CSS. Yeah, I said it.^2000",
+    // "Your next developer.^5000"
   ],
   smartBackspace: true,
   typeSpeed: 50,
