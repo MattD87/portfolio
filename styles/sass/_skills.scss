@@ -3,7 +3,7 @@
 }
 
 .skills h2 {
-  color: $main;
+  color: $secondary;
   padding-bottom: 60px;
 }
 
@@ -14,13 +14,13 @@
 
 .skill li {
   @include flex (column, center);
-  width: 33%;
+  width: 25%;
   padding: 10px;
 }
 
 .skill i {
   font-size: 80px;
-  color: $tertiary;
+  color: $main;
 }
 
 .skill img {
@@ -30,7 +30,7 @@
 
 .skill p {
   text-transform: uppercase;
-  color: #000;
+  color: $tertiary;
   margin-top: 10px;
 }
 

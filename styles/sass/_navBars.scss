@@ -1,5 +1,4 @@
 .headerNav {
-  // @include flex(row, flex-start);
   background: transparent;
   padding: 10px 40px;
   position: fixed;
@@ -8,9 +7,15 @@
 .projectNav {
   @include flex (column);
   align-items: flex-start;
-  border-bottom: 1px solid #646363;
+  border-bottom: 1px solid $highlight;
   padding: 10px 20px;
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.projectNav li a{
+  color: $main;
+  font-size: 1.2rem;
 }
 
 .projectNav h2, .projectNav ul {
@@ -30,5 +35,6 @@
 }
 
 a.active {
-  color: $highlight;
+  // color: $secondary;
+  border-bottom: 2px solid #fff;
 }

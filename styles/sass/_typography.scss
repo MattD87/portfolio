@@ -2,7 +2,7 @@
 // All Font Stylings
 //====================
 html {
-  font-size: 125%;
+  font-size: 112.5%;
   font-family: $body;
 }
 
@@ -11,11 +11,11 @@ h1 {
 }
 
 h2 {
-  @include fontStyle(3rem, 4rem, #fff, $secondaryHeader);
+  @include fontStyle(3rem, 4rem, #fff, $header);
 }
 
 h3 {
-  @include fontStyle(2rem, 3.8rem, $main, $header);
+  @include fontStyle(2rem, 3.8rem, $main, $secondaryHeader);
 }
 
 h4 {

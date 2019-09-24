@@ -29,8 +29,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
 
-    <!-- Link to External Style Sheet -->
-    <link rel="stylesheet" href="./styles/style.css" />
+    <!--Link to jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Link to Font Awesome Icons -->
     <script
@@ -44,10 +44,18 @@
       href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
     />
 
+    <!-- Link to External Style Sheet -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
     <title>Matt Donaldson's Portfolio</title>
   </head>
 
   <body>
+    <!--Skip Links-->
+    <a href="#about" class="skipLink">Skip to main content.</a>
+    <a href="#projects" class="skipLink">Skip to projects and skills.</a>
+    <a href="#contact" class="skipLink">Skip to contact form.</a>
+
     <nav class="headerNav navBar" id="headerNav">
       <ul>
         <li><a href="#header" class="active">Home</a></li>
@@ -55,15 +63,14 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <!-- <div class="logoContainer">
-        <p>Matt Donaldson</p>
-      </div> -->
     </nav>
     <header class="header" id="header">
       <div class="wrapper">
         <h1>Matt Donaldson</h1>
         <h2>Front End Developer</h2>
-        <p>Tag Line Here</p>
+        <p>
+          <span id="typed" class="typed"></span>
+        </p>
       </div>
     </header>
     <main>
@@ -77,14 +84,18 @@
               />
             </div>
             <div class="infoContainer">
-              <!-- <h3>About Me</h3> -->
               <h4>Hello!</h4>
-              <!-- <p>Hi, I'm Matt!</p> -->
               <p>
-                I'm <span class="name">Matt</span>, a front-end developer with a
-                background in management and operations. My strengths include
-                creative problem solving, team management, public speaking, and
-                breaking down problems into small, manageable steps.
+                I'm <span class="name">Matt</span>, a Toronto based front-end
+                developer that loves to learn and to pass on that knowledge to
+                others. I believe strongly in giving back to the community that
+                has given me so much. I combine my experience in team management
+                with a strong knowledge of fundamentals and advanced concepts to
+                build and maintain beautiful, accessible, and fun to use
+                applications and websites. I have a strong communications
+                skillset gained through public speaking, and I am known for
+                making meaningful contributions to teams in fast-paced
+                environments.
               </p>
               <p>
                 I believe in staying <span class="highlight">evergreen</span>,
@@ -94,10 +105,9 @@
               </p>
               <p>
                 I also have a passion for cooking and food. I'll try any dish
-                once, and more often than not a few more times after that as
-                well. When I'm not cooking or coding I spend my time reading,
-                camping, and exploring this big wonderful city in all its
-                (sometimes) glory.
+                once, and more often than not a few more times after that. When
+                I'm not cooking or coding I spend my time reading, camping, and
+                exploring this big wonderful city in all its (sometimes) glory.
               </p>
             </div>
           </div>
@@ -121,6 +131,14 @@
             </div>
             <div class="projectInfoContainer">
               <h3>Concert Accountant</h3>
+              <p>
+                Set a budget, search shows using the Ticketmaster API and add
+                the ones you're interested in. Once you hit your budget you can
+                publish your list using Firebase and see what other people have
+                come up with. Built with a team of four, this app utilizes the
+                power of React and collaboration to deliver a fully responsive,
+                accessible, and fun experience.
+              </p>
               <div class="iconContainer">
                 <img
                   src="./assets/firebaseIcon.png"
@@ -132,14 +150,6 @@
                 <i class="devicon-css3-plain"></i>
                 <i class="devicon-github-plain"></i>
               </div>
-              <p>
-                Set a budget, search shows using the Ticketmaster API and add
-                the ones you're interested in. Once you hit your budget you can
-                publish your list using Firebase and see what other people have
-                come up with. Built with a team of four, this app utilizes the
-                power of React and collaboration to deliver a fully responsive,
-                accessible, and fun experience.
-              </p>
               <div class="linkContainer">
                 <a href="#">View Live</a>
                 <a href="#">GitHub</a>
@@ -152,6 +162,13 @@
             </div>
             <div class="projectInfoContainer">
               <h3>Who Said It?</h3>
+              <p>
+                Have you ever wondered if you can you tell the difference
+                between tweets from Kanye West and a sentient orange? Well now
+                you can! Using javascript, jquery, and two API's to create a fun
+                guessing game complete with animations and twitter integration.
+                The app is fully responsive so you can play on the go!
+              </p>
               <div class="iconContainer">
                 <i class="devicon-javascript-plain"></i>
                 <i class="devicon-jquery-plain"></i>
@@ -159,14 +176,6 @@
                 <i class="devicon-sass-original"></i>
                 <i class="devicon-github-plain"></i>
               </div>
-              <p>
-                Have you ever wondered if you can you tell the difference
-                between tweets from Kanye West and a sentient orange? Well now
-                you can find out! Using javascript, jquery, and two API's to
-                create a fun guessing game complete with animations and twitter
-                integration. The app is fully responsive so you can play on the
-                go!
-              </p>
               <div class="linkContainer right">
                 <a href="#">View Live</a>
                 <a href="#">GitHub</a>
@@ -179,13 +188,6 @@
             </div>
             <div class="projectInfoContainer">
               <h3>Recipes To Go</h3>
-              <div class="iconContainer">
-                <i class="devicon-react-original"></i>
-                <i class="devicon-javascript-plain"></i>
-                <i class="devicon-html5-plain"></i>
-                <i class="devicon-css3-plain"></i>
-                <i class="devicon-github-plain"></i>
-              </div>
               <p>
                 This project was built using React, API's, and HTML/CSS to
                 deliver a recipe app that allows users to search through recipes
@@ -195,6 +197,13 @@
                 this because I have a passion for food and cooking and allows me
                 to quickly find recipes that interest me.
               </p>
+              <div class="iconContainer">
+                <i class="devicon-react-original"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-github-plain"></i>
+              </div>
               <div class="linkContainer">
                 <a href="#">View Live</a>
                 <a href="#">GitHub</a>
@@ -207,11 +216,6 @@
             </div>
             <div class="projectInfoContainer">
               <h3>Boat Ride Adventures</h3>
-              <div class="iconContainer">
-                <i class="devicon-html5-plain"></i>
-                <i class="devicon-sass-original"></i>
-                <i class="devicon-github-plain"></i>
-              </div>
               <p>
                 A multi page PSD conversion for a client specializing in boat
                 tours. This website shows the power of pure HTML and SASS to
@@ -220,6 +224,11 @@
                 website is pixel perfect and is responsive on all screens and
                 sizes.
               </p>
+              <div class="iconContainer">
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-sass-original"></i>
+                <i class="devicon-github-plain"></i>
+              </div>
               <div class="linkContainer right">
                 <a href="#">View Live</a>
                 <a href="#">GitHub</a>
@@ -247,6 +256,10 @@
                 <p>github</p>
               </li>
               <li>
+                <i class="fas fa-universal-access"></i>
+                <p>Accessibility</p>
+              </li>
+              <li>
                 <i class="devicon-javascript-plain"></i>
                 <p>javascript</p>
               </li>
@@ -256,10 +269,14 @@
               </li>
               <li>
                 <img
-                  src="./assets/firebaseIconColoured.png"
+                  src="./assets/firebaseIconGreen.png"
                   alt="Google Firebase icon."
                 />
                 <p>firebase</p>
+              </li>
+              <li>
+                <i class="fas fa-mobile-alt"></i>
+                <p>responsive</p>
               </li>
               <li>
                 <i class="devicon-jquery-plain"></i>
@@ -273,6 +290,10 @@
                 <i class="devicon-git-plain"></i>
                 <p>git</p>
               </li>
+              <li>
+                <i class="fab fa-node-js"></i>
+                <p>Nodejs</p>
+              </li>
             </ul>
           </div>
         </div>
@@ -280,19 +301,25 @@
 
       <section class="contact" id="contact">
         <div class="wrapper">
-          <div class="contactTitle">
-            <h2>Get In Touch</h2>
-          </div>
+          <!-- <div class="contactTitle"> -->
+          <h2>Get In Touch</h2>
+          <!-- </div> -->
           <div class="contactContainer">
             <div class="contactInfo">
-              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <!-- <p>Like what you see? Let's connect!</p> -->
               <a href="mailto: matthewdonaldson9@gmail.com"
                 >matthewdonaldson9@gmail.com</a
               >
             </div>
 
             <!--Contact Form-->
-            <form class="contactForm" id="contactForm" action="">
+            <form
+              class="contactForm"
+              id="contactForm"
+              action="http://www.focuspocus.io/magic/4bd49be4e032142023da5b501e095f6b"
+              method="POST"
+              enctype="multipart/form-data"
+            >
               <fieldset>
                 <label for="name" class="visuallyHidden">Name</label>
                 <input
@@ -304,7 +331,13 @@
                 />
 
                 <label for="email" class="visuallyHidden">Email</label>
-                <input type="email" id="email" placeholder="Email" required />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
               </fieldset>
 
               <label for="comment" class="visuallyHidden">Message</label>
@@ -316,7 +349,7 @@
                 placeholder="Message"
               ></textarea>
 
-              <button type="submit">Submit</button>
+              <button type="submit" value="Send">Submit</button>
             </form>
             <div class="socialLinks">
               <ul>
@@ -349,12 +382,21 @@
 
     <footer class="footerCopyright">
       <p>Created by Matt Donaldson 2019 &copy;</p>
-      <a href="#header"><i class="fas fa-arrow-alt-circle-up" aria-hidden="true"></i></a>
+      <a href="#header"
+        ><i class="fas fa-arrow-alt-circle-up" aria-hidden="true"></i
+      ></a>
     </footer>
+
+    <!--Typed JS script-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <!-- Smooth Scroll -->
+      <!-- <script src="./node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script> -->
+
+    <!--Javascript File-->  
+    <script src="script.js"></script>
 
     <!--Credits-->
     <!-- LoganCee for the theme design -->
-
-    <script src="script.js"></script>
   </body>
 </html>

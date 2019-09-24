@@ -16,10 +16,16 @@
 }
 
 .projectImgContainer {
+  @include flex (row);
 width: 50%;
 height:100%;
 background: rgba($secondary, 0.7);
-// background: $secondary;
+}
+
+.projectImgContainer img {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
 }
 
 .projectInfoContainer {
@@ -35,7 +41,7 @@ background: rgba($secondary, 0.7);
 }
 
 .iconContainer {
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .iconContainer img{
@@ -45,7 +51,7 @@ background: rgba($secondary, 0.7);
 
 .linkContainer {
   @include flex (row, flex-start);
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .right {
@@ -55,9 +61,13 @@ background: rgba($secondary, 0.7);
 .linkContainer a {
   padding: 10px;
   background: $secondary;
-  color: $tertiary;
+  color: $background;
 }
 
 .linkContainer a:first-of-type {
   margin-right: 10px;
+}
+
+.linkContainer a:nth-of-type(2) {
+  background: $main;
 }
