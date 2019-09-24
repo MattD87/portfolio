@@ -398,7 +398,6 @@ footer a:focus {
 .headerNav {
   background: transparent;
   padding: 10px 40px;
-  position: fixed;
   margin-top: 6px;
 }
 
@@ -946,6 +945,9 @@ footer i {
     width: 70%;
     height: 70%;
   }
+  .iconContainer i {
+    font-size: 1.4rem;
+  }
   h3 {
     line-height: 2.4rem;
   }
@@ -1021,6 +1023,7 @@ footer i {
   }
   .projectInfoContainer {
     width: 90%;
+    padding: 20px;
   }
   .projectImgContainer {
     width: 90%;
@@ -1054,6 +1057,10 @@ footer i {
   .skill i {
     font-size: 3.2rem;
   }
+  .skill img {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 /*Landscape phones */
@@ -1080,6 +1087,54 @@ footer i {
   }
   textarea {
     width: 95%;
+  }
+}
+
+/*Portrait phones and down */
+@media (max-width: 420px) {
+  html {
+    font-size: 87.5%;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .wrapper {
+    padding: 0;
+  }
+  .projectInfoContainer {
+    width: 100%;
+  }
+  .projectImgContainer {
+    width: 100%;
+  }
+  .linkContainer a {
+    padding: 6px;
+  }
+  .skill i {
+    font-size: 2rem;
+  }
+  .skill img {
+    width: 40px;
+    height: 40px;
+  }
+  footer {
+    padding-top: 20px;
+  }
+  footer i {
+    font-size: 1.6rem;
+  }
+}
+
+/*Smallest Phones */
+@media (max-width: 350px) {
+  html {
+    font-size: 75%;
+  }
+  .skill li {
+    padding: 4px;
+  }
+  .contactForm {
+    height: 300px;
   }
 }
 
