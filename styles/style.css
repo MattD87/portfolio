@@ -639,7 +639,8 @@ header p {
           align-items: center;
   width: 100%;
   height: 100%;
-  min-height: 420px;
+  min-height: 400px;
+  margin-bottom: 10px;
 }
 
 .projectImgContainer {
@@ -658,7 +659,6 @@ header p {
           align-items: center;
   width: 50%;
   height: 100%;
-  background: rgba(11, 79, 108, 0.7);
 }
 
 .projectImgContainer img {
@@ -688,16 +688,18 @@ header p {
   height: 100%;
   padding: 40px;
   padding-top: 20px;
-  background: rgba(35, 9, 3, 0.7);
 }
 
-.projectInfoContainer h3,
+.projectInfoContainer h3 {
+  color: #57a009;
+}
+
 .projectInfoContainer a {
   color: #fff;
 }
 
 .iconContainer {
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .iconContainer img {
