@@ -13,6 +13,7 @@ portfolio.typed = new Typed("#typed", {
     "JAMstack... mmm jam.^2000",
     "JAMstack",
     "JAMstack aficionado.^2000",
+    "I build websites so well that even my mum can use them",
     "Your next developer.^6000"
   ],
   smartBackspace: true,

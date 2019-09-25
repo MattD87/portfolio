@@ -345,7 +345,6 @@ footer i {
 
 .navBar a:hover,
 .navBar a:focus {
-  background: #f9fafa;
   color: #0b4f6c;
 }
 
@@ -702,9 +701,13 @@ header p {
   padding: 10px 0;
 }
 
+.iconContainer i {
+  padding-right: 8px;
+}
+
 .iconContainer img {
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
 }
 
 .linkContainer {
@@ -995,8 +998,8 @@ img {
     font-size: 100%;
   }
   .projectImgContainer img {
-    width: 75%;
-    height: 75%;
+    width: 85%;
+    height: 85%;
   }
   .iconContainer i {
     font-size: 1.4rem;
