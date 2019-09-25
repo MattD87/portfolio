@@ -1,5 +1,5 @@
 html {
-  @include fontStyle(112.5%, 1.3rem, #000, $body);
+  @include fontStyle(112.5%, 1.5rem, #000, $body);
 }
 
 h1 {
@@ -11,7 +11,7 @@ h2 {
 }
 
 h3 {
-  @include fontStyle(2rem, 3.8rem, $main, $secondaryHeader);
+  @include fontStyle(2rem, 3.4rem, $main, $secondaryHeader);
 }
 
 h4 {
@@ -22,13 +22,17 @@ h4 {
   @include fontStyle(1rem, 1.2rem, $background, $body);
 }
 
+p {
+  @include fontStyle(1rem, 1.5rem, #000, $body);
+}
+
 header h2 {
   font-size: 2rem;
   font-weight: bold;
 }
 
 .infoContainer {
-  line-height: 1.3rem;
+  line-height: 1.5rem;
 }
 
 .projectNav li a {
@@ -36,6 +40,10 @@ header h2 {
 }
 
 .contactInfo a {
+  font-size: 1.4rem;
+}
+
+.iconContainer i {
   font-size: 1.4rem;
 }
 

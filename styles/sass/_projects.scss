@@ -5,45 +5,51 @@
   color: #fff;
 }
 
+.projects p {
+  color: $background;
+}
+
 .projectContainer {
   @include flex(row);
   width: 100%;
-}
-
-.secondProject,
-.fourthProject {
-  @include flex(row-reverse);
-  text-align: right;
+  height: 100%;
+  min-height: 400px;
+  margin-bottom: 10px;
 }
 
 .projectImgContainer {
   @include flex(row);
   width: 50%;
   height: 100%;
-  background: rgba($secondary, 0.7);
+  // background: rgba($secondary, 0.7);
 }
 
 .projectImgContainer img {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   margin: 0 auto;
 }
 
 .projectInfoContainer {
+  @include flex (column, space-between);
+  align-items: flex-start;
   width: 50%;
   height: 100%;
   padding: 40px;
   padding-top: 20px;
-  background: rgba($tertiary, 0.7);
+  // background: rgba($tertiary, 0.7);
 }
 
-.projectInfoContainer h3,
+.projectInfoContainer h3 {
+  color: $main;
+}
+
 .projectInfoContainer a {
   color: #fff;
 }
 
 .iconContainer {
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .iconContainer img {
@@ -56,8 +62,10 @@
   margin-top: 10px;
 }
 
-.right {
-  @include flex(row, flex-end);
+.secondProject,
+.fourthProject {
+  @include flex(row-reverse);
+  align-items: flex-end;
 }
 
 .linkContainer a {
